@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Careers</title>
 </head>
 <body>
-    
+    <h1>Register!</h1>
+
+    <form method="get">
+        <label>Full Name</label>
+        <input type="text" placeholder="Enter your full name..." pattern=".{8,}." required> <br>
+        <br>
+        <label>Experience</label>
+        <input type="number" placeholder="Years of experience..." required> <br>
+        <br>
+        <label>Position</label>
+        <select required>
+            <option>Android Developer</option>
+            <option>Full Stack Developer</option>
+            <option>Consultant</option>
+            <option>Research and Development</option>
+        </select> <br>
+        <br>
+        <label>Job Type</label>
+        <select required>
+            <option>Full-time</option>
+            <option>Part-time</option>
+            <option>Freelancer</option>
+            <option>Internship</option>
+        </select> <br>
+        <br>
+        <input type="submit" value="Apply!" id="apply">
+
+
+    </form>
 </body>
 </html>
